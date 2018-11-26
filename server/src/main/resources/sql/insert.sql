@@ -1,0 +1,40 @@
+INSERT INTO user values(DEFAULT, 'a', TO_DATE('17.10.2017', 'DD.MM.YYYY'), '$2a$10$D2Qh8UqlFbo9TNCNaenBFuM6lhZc4Ge5Y.1HFGSeAiAcbtrJ1wzfS');
+INSERT INTO user values(DEFAULT, 'b', TO_DATE('20.10.2017', 'DD.MM.YYYY'), '$2a$10$2ePtRRilB1B4a5l6T2jrhOsU7JHa2ljsjHkfh72nBJaQZJLgHz4IO');
+INSERT INTO user values(DEFAULT, 'c', TO_DATE('21.10.2017', 'DD.MM.YYYY'), '$2a$10$xU6t8.IoiioX.NA.WET27.OLzns9QwOHiyimeqXbSdD3lzgP/uHyW');
+INSERT INTO user values(DEFAULT, 'd', TO_DATE('17.11.2017', 'DD.MM.YYYY'), '$2a$10$DB9HEWfjDoNt4dHZvkKH1.l3lfAbt7rbY986MeRfFhZxR5ZQb5aV.');
+INSERT INTO user values(DEFAULT, 'e', TO_DATE('20.11.2017', 'DD.MM.YYYY'), '$2a$10$jfaA8SwyEcHTjKSQCRJfk..lXAdZtNzQcDQaujiZzPJC2QC723DUu');
+INSERT INTO user values(DEFAULT, 'f', TO_DATE('21.11.2017', 'DD.MM.YYYY'), '$2a$10$I6BTiW7hu9lmkHT/xaQ/ru9ZyJ7InxPPRc3wjRXsMhguoB8ahUyp.');
+INSERT INTO user values(DEFAULT, 'g', TO_DATE('15.12.2017', 'DD.MM.YYYY'), '$2a$10$154g0h9qys/qSpLp3fQT8O9oIb.Lr/pudRDpTXdsdivo1u/a78DLW');
+INSERT INTO user values(DEFAULT, 'h', TO_DATE('18.12.2017', 'DD.MM.YYYY'), '$2a$10$/K/gkZ9BzciCW9VI4T5in.V.xNOQaJKMsD9q1Ks.F6UajgBIByNbu');
+INSERT INTO user values(DEFAULT, 'i', TO_DATE('19.01.2018', 'DD.MM.YYYY'), '$2a$10$ZL3CuGVaH5rcc5BAbjruc.a/4p/3XlBEunIXIweCVCF4xP5CSvN5m');
+
+INSERT INTO gameinfo values(DEFAULT, 1, TO_DATE('21.10.2017', 'DD.MM.YYYY'));
+INSERT INTO gameinfo values(DEFAULT, 1, TO_DATE('22.11.2017', 'DD.MM.YYYY'));
+INSERT INTO gameinfo values(DEFAULT, 2, TO_DATE('24.11.2017', 'DD.MM.YYYY'));
+INSERT INTO gameinfo values(DEFAULT, 3, TO_DATE('09.12.2017', 'DD.MM.YYYY'));
+INSERT INTO gameinfo values(DEFAULT, 2, TO_DATE('27.12.2017', 'DD.MM.YYYY'));
+INSERT INTO gameinfo values(DEFAULT, 3, TO_DATE('14.01.2018', 'DD.MM.YYYY'));
+INSERT INTO gameinfo values(DEFAULT, 3, TO_DATE('20.01.2018', 'DD.MM.YYYY'));
+
+
+INSERT INTO usergameinfo values(1, 1);
+INSERT INTO usergameinfo values(1, 2);
+INSERT INTO usergameinfo values(1, 3);
+INSERT INTO usergameinfo values(1, 4);
+INSERT INTO usergameinfo values(1, 5);
+INSERT INTO usergameinfo values(1, 6);
+INSERT INTO usergameinfo values(1, 7);
+INSERT INTO usergameinfo values(2, 1);
+INSERT INTO usergameinfo values(2, 2);
+INSERT INTO usergameinfo values(2, 3);
+INSERT INTO usergameinfo values(2, 4);
+INSERT INTO usergameinfo values(2, 5);
+INSERT INTO usergameinfo values(2, 6);
+INSERT INTO usergameinfo values(2, 7);
+INSERT INTO usergameinfo values(3, 1);
+INSERT INTO usergameinfo values(3, 2);
+INSERT INTO usergameinfo values(3, 3);
+INSERT INTO usergameinfo values(3, 4);
+INSERT INTO usergameinfo values(3, 5);
+INSERT INTO usergameinfo values(3, 6);
+INSERT INTO usergameinfo values(3, 7);

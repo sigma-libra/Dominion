@@ -1,0 +1,10 @@
+EngineTests/TurnTrackerTest.class
+EngineTests/GameStateTest.class
+CardTests/CardPileTest.class
+LogUtilTests/PlayLogUtilTest.class
+CardTests/CardTest.class
+CardTests/PlayableCardTest.class
+EngineTests/SupplyTest.class
+CardTests/TreasureCardTest.class
+DTOTests/UserDTOTest.class
+EngineTests/PlayerTest.class

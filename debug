@@ -1,0 +1,1 @@
+LOG.info("currentPlayerIndex: " + currentGameState.getCurrentPlayerIndex() + " phase: " + currentGameState.getTurnTracker().getPhase() + " currentPlayerID: " + currentGameState.getCurrentPlayer().getUser().getId());

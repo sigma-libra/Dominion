@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="525.0" prefWidth="775.0" style="-fx-background-color: #EED4B9;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.gui.controller.JoinGameController">
+   <children>
+      <Text fill="#b52020" layoutX="44.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Join Game">
+         <font>
+            <Font name="Serif Italic" size="50.0" />
+         </font>
+      </Text>
+      <Button fx:id="joinGameButton" layoutX="352.0" layoutY="395.0" mnemonicParsing="false" onAction="#onJoinGameButtonClicked" prefHeight="56.0" prefWidth="178.0" text="Join Game" />
+      <TableView fx:id="joinedPlayersTable" layoutX="349.0" layoutY="165.0" prefHeight="189.0" prefWidth="370.0">
+        <columns>
+          <TableColumn fx:id="joinedPlayersUsernames" prefWidth="369.0" text="Players in Game" />
+        </columns>
+      </TableView>
+      <Text fill="#b52020" layoutX="23.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your stats: ">
+         <font>
+            <Font name="Serif Italic" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#b52020" layoutX="39.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game Master:">
+         <font>
+            <Font name="Serif Regular" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#b52020" layoutX="39.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:">
+         <font>
+            <Font name="Serif Italic" size="15.0" />
+         </font>
+      </Text>
+      <Label fx:id="usernameField" layoutX="154.0" layoutY="222.0" prefHeight="19.0" prefWidth="189.0">
+         <font>
+            <Font name="Serif Regular" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="gameMasterField" layoutX="154.0" layoutY="261.0" prefHeight="19.0" prefWidth="189.0">
+         <font>
+            <Font name="Serif Regular" size="15.0" />
+         </font>
+      </Label>
+      <Text fx:id="errorMessageField" layoutX="40.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="676.0000047832727">
+         <font>
+            <Font name="Serif Italic" size="15.0" />
+         </font>
+      </Text>
+      <Button layoutX="541.0" layoutY="395.0" mnemonicParsing="false" onAction="#startGameButtonClicked" prefHeight="56.0" prefWidth="178.0" text="Start Game" />
+      <Hyperlink fx:id="statisticsLink" layoutX="683.0" layoutY="64.0" onAction="#statisticsLinkClicked" text="Statistics" />
+      <ImageView fx:id="join_game_settings" fitHeight="56.0" fitWidth="56.0" layoutX="293.0" layoutY="395.0" onMouseClicked="#onGameSettingsClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/gear_icon.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="22.0" layoutY="395.0" mnemonicParsing="false" onAction="#onLoadSavedGameClicked" prefHeight="56.0" prefWidth="141.0" text="Load saved game" />
+   </children>
+</AnchorPane>

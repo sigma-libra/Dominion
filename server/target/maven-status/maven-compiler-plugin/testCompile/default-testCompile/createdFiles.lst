@@ -1,0 +1,5 @@
+server/service/UserServiceImplTest.class
+server/persistence/PersistenceImplTest.class
+server/spring/UserControllerTest.class
+server/spring/GameControllerTest.class
+server/service/PersistenceServiceImplTest.class

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="324.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.gui.controller.LoadSavedGameController">
+   <children>
+      <ListView fx:id="savedGameList" layoutX="64.0" layoutY="87.0" prefHeight="245.0" prefWidth="197.0" />
+      <Button layoutX="261.0" layoutY="360.0" mnemonicParsing="false" onAction="#onLoadGameClicked" text="Load" />
+      <Text layoutX="31.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You may choose from the following saved games with the current players:" wrappingWidth="234.7294921875" />
+   </children>
+</AnchorPane>
