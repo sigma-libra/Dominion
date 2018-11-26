@@ -8,22 +8,16 @@ TU Wien, Autumn 2017
 ## authors
 
 Name: Ulrike, Schaefer\
-Matrikelnummer: 1327450
 
 Name: Johannes, Trippl\
-Matrikelnummer: 0826563
 
 Name: Sabrina, Kall\
-Matrikelnummer: 11721387
 
 Name: Alex, Nachname\
-Matrikelnummer: 1427034
 
 Name: Paul, Pinterits\
-Matrikelnummer: 1225935
 
 Name: Sahab, Nachname\
-Matrikelnummer: 12345678
 
 ## how to
 
