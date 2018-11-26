@@ -1,4 +1,5 @@
-# SEPM_QSE4
+# Software Engineering Project
+TU Wien, Autumn 2017
 
 ## Dominion
 
