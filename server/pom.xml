@@ -23,7 +23,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.compiler.source>9</maven.compiler.source>
 		<maven.compiler.target>9</maven.compiler.target>
-		<junit.version>4.12</junit.version>
+		<junit.version>4.13.1</junit.version>
         <spring-boot.version>1.5.8.RELEASE</spring-boot.version>
         <spring.version>4.3.12.RELEASE</spring.version>
 		<dominion_shared.version>0.0.1-SNAPSHOT</dominion_shared.version>
