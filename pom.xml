@@ -22,7 +22,7 @@
         <!-- compile dependencies -->
         <slf4j.version>1.7.25</slf4j.version>
         <!-- runtime dependencies -->
-        <logback.version>1.1.11</logback.version>
+        <logback.version>1.2.0</logback.version>
         <!-- test dependencies -->
         <junit.version>4.13.1</junit.version>
         <!-- plugins -->
